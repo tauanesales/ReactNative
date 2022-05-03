@@ -1,5 +1,5 @@
 import React from 'react';
-import  { View} from 'react-native';
+import  { View, StyleSheet} from 'react-native';
 import {Comp1, Comp2} from './componentes/Multi';
 
 // function App(){
@@ -8,8 +8,16 @@ import {Comp1, Comp2} from './componentes/Multi';
 // }
 
 export default () => (
-    <View>
+    <View style={style.App}>
         <Comp1></Comp1>
         <Comp2></Comp2>
     </View>
 )
+const style = StyleSheet.create({
+    App:{
+        backgroundColor: 'blue',
+        flexGrow :1,
+        justifyContent: "center",
+        alignItems:"center",
+    }
+})
