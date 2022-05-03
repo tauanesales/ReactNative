@@ -9,5 +9,9 @@ export default StyleSheet.create({
         fontSize:20,
         color:'white'
 
+    },
+    txtPlataforma:{
+        fontSize:24,
+        color:'white',
     }
 })

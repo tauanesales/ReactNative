@@ -6,11 +6,10 @@ function Comp() {
 }
 
 export function Comp1() {
-    console.warn('Sucesso, bem vindo!')
     return(<Text style={estilo.textIBM}>IBM</Text>)
 }
 
 export function Comp2() {
-    
+    console.warn('Sucesso, bem vindo!')
     return <Text style={estilo.txtFrase}>Think</Text>
  }
