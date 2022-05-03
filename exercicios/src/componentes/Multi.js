@@ -6,7 +6,7 @@ function Comp() {
 }
 
 export function Comp1() {
-    console.warn('ooe')
+    console.warn('Sucesso, bem vindo!')
     return(<Text style={estilo.textIBM}>IBM</Text>)
 }
 
