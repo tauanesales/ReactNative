@@ -6,9 +6,11 @@ function Comp() {
 }
 
 export function Comp1() {
-    return <Text style={estilo.txt}>IBM</Text>
+    console.warn('ooe')
+    return(<Text style={estilo.textIBM}>IBM</Text>)
 }
 
 export function Comp2() {
-    return <Text>Think</Text>
+    
+    return <Text style={estilo.txtFrase}>Think</Text>
  }

@@ -1,8 +1,13 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-    txt:{
-        fontSize:24,
+    textIBM:{
+        fontSize:60,
         color:'white'
+    },
+    txtFrase:{
+        fontSize:20,
+        color:'white'
+
     }
 })
