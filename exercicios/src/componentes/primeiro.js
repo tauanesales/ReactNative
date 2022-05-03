@@ -1,7 +1,12 @@
 import React from 'react';
-import  {Text } from 'react-native';
+import  {View } from 'react-native';
 
 
-import Caminho from './componentes/primeiro'
+import Primeiro from './componentes/primeiro'
 
-export default () => <Caminho></Caminho>
+export default () => (
+
+    <View>
+        <Primeiro/>
+    </View>
+);
