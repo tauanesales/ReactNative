@@ -3,6 +3,7 @@ import  { View, StyleSheet} from 'react-native';
 import {Comp1, Comp2} from './componentes/Multi';
 import Botao from './componentes/botao';
 import Plataforma from './componentes/plataforma'
+import RefatorandoPlataforma from './componentes/refatorandoPlataforma';
 // function App(){
 //     return <Text> A vida é bela </Text>
 //     <View><Comp1></Comp1></View>
@@ -10,10 +11,11 @@ import Plataforma from './componentes/plataforma'
 
 export default () => (
     <View style={style.App}>
-        <Comp1></Comp1>
-        {/* <Comp2></Comp2> */}
+        <Comp1></Comp1> 
+        <Comp2></Comp2>
         <Botao></Botao>
         <Plataforma></Plataforma>
+        {/* <RefatorandoPlataforma></RefatorandoPlataforma> */}
     </View>
 )
 const style = StyleSheet.create({
