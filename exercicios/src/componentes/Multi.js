@@ -10,6 +10,5 @@ export function Comp1() {
 }
 
 export function Comp2() {
-    console.warn('Sucesso, bem vindo!')
     return <Text style={estilo.txtFrase}>Think</Text>
  }

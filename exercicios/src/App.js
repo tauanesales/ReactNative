@@ -4,6 +4,7 @@ import {Comp1, Comp2} from './componentes/Multi';
 import Botao from './componentes/botao';
 import Plataforma from './componentes/plataforma'
 import RefatorandoPlataforma from './componentes/refatorandoPlataforma';
+import EntradaUsuario from './componentes/entradaUsuario'
 // function App(){
 //     return <Text> A vida é bela </Text>
 //     <View><Comp1></Comp1></View>
@@ -11,10 +12,11 @@ import RefatorandoPlataforma from './componentes/refatorandoPlataforma';
 
 export default () => (
     <View style={style.App}>
+        <Plataforma></Plataforma>
         <Comp1></Comp1> 
         <Comp2></Comp2>
+        <EntradaUsuario></EntradaUsuario>
         <Botao></Botao>
-        <Plataforma></Plataforma>
         {/* <RefatorandoPlataforma></RefatorandoPlataforma> */}
     </View>
 )
@@ -25,5 +27,6 @@ const style = StyleSheet.create({
         justifyContent: "center",
         alignItems:"center",
         padding:20,
+        color:'while',
     }
 })
