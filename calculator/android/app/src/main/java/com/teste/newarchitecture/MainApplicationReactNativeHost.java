@@ -1,4 +1,4 @@
-package com.calculator.newarchitecture;
+package com.teste.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.calculator.BuildConfig;
-import com.calculator.newarchitecture.components.MainComponentsRegistry;
-import com.calculator.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.teste.BuildConfig;
+import com.teste.newarchitecture.components.MainComponentsRegistry;
+import com.teste.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
