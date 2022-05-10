@@ -17,7 +17,17 @@ const styles =  StyleSheet.create({
         textAlign: 'center',
         borderWidth: 1,
         borderColor: '#888',
+    }, 
+    operationButton:{
+        color: '#fff',
+        backgroundColor:'#000000',
+    }, 
+    buttonDouble: {
+        width:( Dimensions.get('window').width / 4) * 2
+    }, buttonDouble: {
+        width:( Dimensions.get('window').width / 4) * 3
     }
+
 })
 
 export default props =>{
