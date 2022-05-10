@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import  { Platform, Text, View, StyleSheet} from 'react-native';
 import Button from './src/components.js/Button';
+import Display from './src/components.js/Display';
 
 // function App(){
 //     return <Text> A vida Ã© bela </Text>
@@ -8,9 +9,12 @@ import Button from './src/components.js/Button';
 // }
 
 export default () => {
- 
+  state = {
+    displayValue: '0',
+  }
     return (
       <View style={styles.container}>
+        <Display value={this.state.displayValue}></Display>
         <View style={styles.buttons}>
           <Button label='AC'/>
           <Button label='/'/>
