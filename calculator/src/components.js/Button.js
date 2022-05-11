@@ -6,7 +6,6 @@ import {
     Dimensions,
     TouchableHighlight
 } from 'react-native'
-import { parseComponentStack } from "react-native/Libraries/LogBox/Data/parseLogBoxLog";
 
 const styles =  StyleSheet.create({
     button : {
@@ -25,7 +24,7 @@ const styles =  StyleSheet.create({
     }, 
     buttonDouble: {
         width:( Dimensions.get('window').width / 4) * 2
-    }, buttonDouble: {
+    }, buttonTriple: {
         width:( Dimensions.get('window').width / 4) * 3
     }
 
@@ -37,7 +36,7 @@ export default props =>{
     if(props.triple) stylesButton.push(styles.buttonTriple)
     if(props.operation) stylesButton.push(styles.operationButton)
     return(
-        <TouchableHighlight onPress={props.onClick}>
+        <TouchableHighlight onPress={() => props.onClick(props.label)}>
             <Text style={stylesButton}> {props.label}</Text>
         </TouchableHighlight>
     )
