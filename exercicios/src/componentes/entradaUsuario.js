@@ -4,7 +4,7 @@ import estilo from "./estilo"
 
 
 export default props => {
-    const [email, setEmail ] = useState ('annne@ibm.com')
+    const [email, setEmail ] = useState ('usuario@ibm.com')
 
  
     return(
