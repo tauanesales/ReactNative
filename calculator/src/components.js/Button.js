@@ -24,13 +24,14 @@ const styles =  StyleSheet.create({
     }, 
     buttonDouble: {
         width:( Dimensions.get('window').width / 4) * 2
-    }, buttonTriple: {
+    }, 
+    buttonTriple: {
         width:( Dimensions.get('window').width / 4) * 3
     }
 
 })
 
-export default props =>{
+export default props => {
     const stylesButton = [styles.button]
     if(props.double) stylesButton.push(styles.buttonDouble)
     if(props.triple) stylesButton.push(styles.buttonTriple)
